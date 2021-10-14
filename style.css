@@ -193,3 +193,42 @@ body.active2 .equal{
 	background-color: hsl(176, 100%, 44%);
 	color: #fff;
 }
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+
+    .calc{
+        padding: 5vw; 
+        gap: 4vw;
+    }
+
+    .calc button{
+        padding: 20% 0;
+        border-radius: 5px;
+    }
+
+    .calc .show-result{
+        font-size: 16px;
+        padding: 12% 0;
+    }
+    
+    #del{
+        padding: 12% 0;
+        font-size: 16px;
+    }
+    
+    #reset{
+        padding: 12% 0;
+        font-size: 16px;
+    }
+
+    .theme-container{
+        flex-basis: 40%;
+    }
+    
+    .buttons button{
+        width: 15px;
+        height: 15px;
+    }
+}
